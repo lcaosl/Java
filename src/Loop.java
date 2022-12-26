@@ -1,11 +1,9 @@
 public class Loop {
     public static void main(String[] args) {
-        int i = 1000;
-        while (i >= 0) {
-            if (i % 2 == 0) {
+        for (int i = 1000; i > 0; i--) {
+            if(i % 2 != 0 && i % 5 == 0){
                 System.out.println(i);
             }
-            i--;
         }
     }
 }
