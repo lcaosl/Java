@@ -1,3 +1,5 @@
+import java.sql.Array;
+
 public class Main {
     public static void main(String[] args) {
         double a = 2;
@@ -5,5 +7,8 @@ public class Main {
         double c2 = a * a + b * b;
         double c = Math.sqrt(c2);
         System.out.println(c);
+
+
+
     }
 }
