@@ -18,7 +18,7 @@ public class Dog {
         System.out.println(running);
     }
     String info() {
-        return "Кличка: " + name + " Порода: " + race + " Скорость " + speed;
+        return "Кличка: " + name + "\nПорода: " + race + "\nСкорость " + speed;
     }
 
 }
