@@ -8,10 +8,10 @@ public class Rect {
     }
 
     String rectanglePerimeter(){
-        return 2 * (width + length) + " см";
+        return "Периметр прямоуголька: " + 2 * (width + length) + " см";
     }
 
-    double rectangleArea(){
-        return width * length;
+    String rectangleArea(){
+        return "Площадь прямоуголька: " + width * length + " см в квадрате";
     }
 }
