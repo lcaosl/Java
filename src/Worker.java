@@ -2,7 +2,6 @@ public class Worker {
     String name = "";
     String position = "";
     int salary;
-    int value;
 
     public Worker(String name, String position, int salary) {
         this.name = name;
