@@ -5,7 +5,7 @@ public class MainMonster {
         Monster monster2 = new Monster(5,9);
         Monster monster3 = new Monster(95, 58, 25);
         monster1.voice();
-        monster2.voice(45);
-        monster3.voice(13, "BABABA");
+        monster2.voice(1);
+        monster3.voice(13, "Давай!");
     }
 }
