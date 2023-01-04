@@ -17,9 +17,9 @@ public class Box {
         double thisSquare = square();
         double boxSquare = box.square();
         if (thisSquare > boxSquare) {
-            System.out.println("Больше!");
+            System.out.println("Больше!!!");
         } else if (thisSquare < boxSquare) {
-            System.out.println("Меньше!");
+            System.out.println("Меньше!!!");
         } else {
             System.out.println("Они равны!!!");
         }
